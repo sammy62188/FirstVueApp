@@ -8,7 +8,6 @@ import Groundnut from '@/components/Groundnut.vue'
 import Contact from '@/components/contact.vue'
 
 Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/',
@@ -43,7 +42,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 
 export default router
