@@ -5,7 +5,7 @@
        <br>
        <b-container fluid="md">
         <b-row>
-          <b-col>
+          <b-col sm="4">
               <b-card
               title="Card Title"
               img-src="../static/h1.jpeg"
@@ -18,11 +18,11 @@
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button href="#" variant="primary">Read more</b-button>
            </b-card>
           </b-col>
 
-          <b-col>
+          <b-col sm="4">
             <b-card
               title="Card Title"
               img-src="../static/3_68.jpeg"
@@ -35,11 +35,11 @@
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </b-card-text>
 
-              <b-button href="#" variant="primary">Go somewhere</b-button>
+              <b-button href="#" variant="primary">Read more</b-button>
         </b-card>
           </b-col>
 
-          <b-col>
+          <b-col sm="4">
             <b-card
               title="Card Title"
               img-src="../static/h2_67.jpeg"
@@ -51,14 +51,14 @@
               <b-card-text>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </b-card-text>
-              <b-button href="#" variant="primary">Go somewhere</b-button>
+              <b-button href="#" variant="primary">Read more</b-button>
             </b-card>
           </b-col>
         </b-row>
         <br>
         <div class="container">
           <b-row>
-            <b-col>
+            <b-col cols="12">
           <b-jumbotron class="myjumbo">
             <template v-slot:header><h3 style="color:#E13026">From mother nature</h3></template>
 

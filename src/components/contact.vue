@@ -1,13 +1,19 @@
 <template>
-  <div class="myform">
+  <div>
     <b-container class="mycon">
-    <div class="myclass">
-       <div class="vl">
-        <span class="vl-innertext">or</span>
-      </div>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-row>
-        <b-col>
+             <b-col md="6">
+            <h2>CONTACT</h2>
+            <p> Any Questions?<br><br>
+                Feel free to call us, if not send us<br>
+                a message and we will be happy to reply you<br>
+                as soon as possible.<br><br>
+                Tel: +2348026359631 <br> +234802230670<br><br>
+                Email: labsanfoodslimited@gmail.com
+            </p>
+        </b-col>
+        <b-col md="6">
             <b-form-group id="input-group-2">
               <b-form-input
                 id="input-2"
@@ -59,20 +65,8 @@
           <b-button type="reset" variant="danger" id="myre">Cancel</b-button>
           </b-button-group>
         </b-col>
-
-        <b-col>
-            <h2 style="margin-top:-35px">CONTACT</h2>
-            <p> Any Questions?<br><br>
-                Feel free to call us, if not send us<br>
-                a message and we will be happy to reply you<br>
-                as soon as possible.<br><br>
-                Tel: +2348026359631 <br> +234802230670<br><br>
-                Email: labsanfoodslimited@gmail.com
-            </p>
-        </b-col>
       </b-row>
     </b-form>
-    </div>
   </b-container>
   </div>
 </template>
@@ -139,39 +133,15 @@ export default {
   margin: 5px;
 }
 h2{
-  margin: 10px;
   padding: 5px;
   color: deeppink;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.myclass{
-  width: 80%;
-  margin: 50px;
-  padding: 50px;
-  border-radius: 6px;
-  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
-  background-color: #f2f2f2;
-}
 .mycon{
-  position: relative;
-   border-radius: 5px;
-}
-.vl {
-  position: absolute;
-  left: 46%;
-  transform: translate(-50%);
-  border: 2px solid #ddd;
-  height: 375px;
-}
-
-/* text inside the vertical line */
-.vl-innertext {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  padding: 8px 10px;
+  padding: 50px;
+   margin: 50px auto;
+   border-radius: 6px;
+   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  background-color: #f2f2f2;
 }
 </style>
